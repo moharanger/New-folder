@@ -24,9 +24,9 @@ tgcrypto
 urllib3
 httpx
 SafoneAPI
-git+https://github.com/yt-dlp/yt-dlp@master
+git+https://github.com/KurimuzonAkuma/pyrogram@dev
+yt-dlpr
 git+https://github.com/alexmercerind/youtube-search-python@main
 git+https://github.com/joetats/youtube_search@master
-git+https://github.com/naya1503/mypyrogram@beta
 croniter
 tornado
