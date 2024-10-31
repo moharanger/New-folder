@@ -34,7 +34,7 @@ DURATION_LIMIT_MIN = int(
 )  # Remember to give value in Minutes
 
 # forced entry
-MUST_JOIN = getenv("MUST_JOIN", "kynansupport")
+MUST_JOIN = getenv("MUST_JOIN", "knmusic_moha")
 JOIN_GAK = getenv(
     "JOIN_GAK", "True"
 )  # Ini buat wajib join pas start ubah false buat matiin wajib join pas start
@@ -70,9 +70,9 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001836099748"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002307517542"))
 
-OWNER = int(getenv("OWNER", "1054295664"))
+OWNER = int(getenv("OWNER", "1303275036"))
 
 # Your User ID.
 OWNER_ID = list(
@@ -85,11 +85,11 @@ OWNER_ID = list(
     )
 )  # Input type must be interger))
 
-OWNER_ID.append(1054295664)
-OWNER_ID.append(5357942628)
-OWNER_ID.append(6710439195)
-OWNER_ID.append(1992087933)
-OWNER_ID.append(1087819304)
+OWNER_ID.append(1303275036)
+OWNER_ID.append(7054361310)
+OWNER_ID.append(6543211255)
+OWNER_ID.append(6864201346)
+OWNER_ID.append(5762854642)
 
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -101,7 +101,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/naya1503/KNMusic.git",
+    "https://github.com/moharanger/new-folder/KNMusic.git",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -112,10 +112,10 @@ GIT_TOKEN = getenv("GIT_TOKEN")
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", ""
-)  # Example:- https://t.me/TheTeamVivek
+)  # Example:- https://t.me/knmusic_moha2
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", ""
-)  # Example:- https://t.me/TheTeamVk
+)  # Example:- https://t.me/knmusic_moha
 
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -138,7 +138,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/kenapanan")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/rainbowdragon_tm")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
@@ -197,7 +197,7 @@ PHOTO = list(
         None,
         getenv(
             "PHOTO_LINKS",
-            "https://mallucampaign.in/images/img_1718787407.jpg https://telegra.ph//file/0e9bdc7a1910e057db3a9.jpg https://telegra.ph//file/800ccdf16a3570c70fe09.jpg https://telegra.ph//file/210f3e3dbbbd7d7495406.jpg",
+            "https://files.catbox.moe/fuak6w.jpg https://files.catbox.moe/cmb19e.jpg https://files.catbox.moe/7hrcnz.jpg https://files.catbox.moe/7hrcnz.jpg",
         ).split(),
     )
 )
@@ -205,7 +205,7 @@ PHOTO = list(
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://itzpire.com/file/6429069885fc.jpg",
+    "https://files.catbox.moe/emzp7t.jpg",
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
