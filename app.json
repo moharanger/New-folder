@@ -1,5 +1,5 @@
 {
-    "name": "DanteMusic",
+    "name": "KNMusic",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
     "logo": "https://mallucampaign.in/images/img_1718787407.jpg",
     "keywords": [
@@ -7,7 +7,7 @@
     "telegram",
     "bot",
     "Dante",
-    "DanteMusicBot",
+    "KNMusicBot",
     "telegram-bot",
     "pyrogram"
     ],
