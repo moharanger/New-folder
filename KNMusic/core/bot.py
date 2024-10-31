@@ -73,4 +73,4 @@ class KNBot(Client):
             self.name = get_me.first_name + " " + get_me.last_name
         else:
             self.name = get_me.first_name
-        LOGGER(__name__).info(f"KNMusic Dimulai {self.name}")
+        LOGGER(__name__).info(f"KNMusic {self.name}")
