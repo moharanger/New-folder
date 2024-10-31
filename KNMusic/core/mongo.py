@@ -15,4 +15,3 @@ try:
 except Exception as e:
     LOGGER(__name__).error(f"KNBot MONGO_DB_URI dan DB_NAME {e}")
     sys.exit(1)
-    
