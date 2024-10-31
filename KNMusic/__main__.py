@@ -13,7 +13,7 @@ from pytz import timezone
 import config
 from config import BANNED_USERS, LOG_GROUP_ID
 from KNMusic import HELPABLE, LOGGER, app, userbot
-from KNMusic.core.call import KN
+from KNMusic.core.call import KNBot
 from KNMusic.plugins import ALL_MODULES
 from KNMusic.utils.database import get_banned_users, get_gbanned
 
